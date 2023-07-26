@@ -1,7 +1,11 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: #cccccc;
+}
+
+body
+{
+    background-color: rgb(204, 204, 204);
 }
 
 header {
@@ -15,10 +19,10 @@ header {
     margin-right: 20px;
     border-radius: 7px;
     padding: 20px 20px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
-ul {
+li {
     list-style-type: none;
 }
 
@@ -45,6 +49,7 @@ a {
     text-align:center;
     background-color: white;
     width: fit-content;
+    display: block;
 }
 
 .player_two {
