@@ -1,67 +1,75 @@
-/*  your css code here. If applicable */
-*
-{
+* {
     margin: 0px;
     padding: 0px;
     background-color: #cccccc;
 }
 
-header
-{
-    padding-bottom:30px ;
+header {
     text-align: center;
+    padding-bottom: 30px;
 }
 
-.player_one
-{
-    padding: 20px 20px;
+.player_one {
     border: 1px solid black;
-    border-radius: 5px;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 7px;
+    padding: 20px 20px;
     background-color: white;
 }
 
-.media
-{
-   padding: 20px 20px;
-   border: 1px solid black;
-   border-radius: 5px;
-   margin-left: 350px;
-    margin-right: 350px;
-    background-color: white;
-    
-    justify-content: center;
-    
-
-}
-
-ul,li{
+ul {
     list-style-type: none;
+}
+
+li {
     background-color: white;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
     background-color: white;
 }
 
-.head-2
-{
+.head-2 {
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.media {
+    border: 1px solid black;
+    padding: 10px 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align:center;
+    background-color: white;
+    width: fit-content;
+}
+
+.player_two {
+   background-color: white;
+}
+
+video
+{
+    width: 500px;
+}
+
+
+.audi
+{
+    background-color: white;
+}
+
+#h2
+{
+    background-color: white;
     padding-bottom: 20px;
 }
 
-.player_two
+audio 
 {
-    width: 50%;
+    width: 500px;
     background-color: white;
 }
-
-.audio
-{
-    background-color: white;
-    
-}
-
